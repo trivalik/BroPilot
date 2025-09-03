@@ -1,14 +1,14 @@
 # BroPilot
 
-BroPilot is a Visual Studio extension that brings the power of local Large Language Models (LLMs) directly into your development workflow. Unlike cloud-based AI assistants, BroPilot enables intelligent code assistance—such as code completions, explanations, and refactoring suggestions—without sending your code or context to external servers. This ensures privacy, low latency, and full control over your development environment.
+BroPilot is a *Visual Studio and SQL Server Management Studio* extension that brings the power of local Large Language Models (LLMs) directly into your development workflow. Unlike cloud-based AI assistants, BroPilot enables intelligent code assistance—such as code completions, explanations, and refactoring suggestions—without sending your code or context to external servers. This ensures privacy, low latency, and full control over your development environment.
 
 🚀 [**Install from VS Marketplace**](https://marketplace.visualstudio.com/items?itemName=Ericvf.version123) ✨
 
 
 ---
-![screenshot](https://github.com/Ericvf/BroPilot/blob/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/Ericvf/BroPilot/main/screenshot.png)
 ---
-![screenshot](https://github.com/Ericvf/BroPilot/blob/main/screenshot4.png)
+![screenshot](https://raw.githubusercontent.com/Ericvf/BroPilot/main/screenshot4.png)
 
 
 ## Problem Statement
@@ -32,10 +32,10 @@ BroPilot is engineered for high performance and a smooth user experience, even w
 These optimizations collectively ensure that BroPilot feels fast, fluid, and unobtrusive, letting you focus on your code without interruption.
 
 ### This method is analyzed in a *11mb* file
-![screenshot](https://github.com/Ericvf/BroPilot/blob/main/screenshot2.png)
+![screenshot](https://raw.githubusercontent.com/Ericvf/BroPilot/main/screenshot2.png)
 
 ### Simple interactions are really fast
-![screenshot](https://github.com/Ericvf/BroPilot/blob/main/screenshot3.png)
+![screenshot](https://raw.githubusercontent.com/Ericvf/BroPilot/main/screenshot3.png)
 
 ---
 
@@ -75,7 +75,7 @@ Limitations:
 - Language Support: Currently limited to C# files.
 - Solution Context: The feature works only when the file is part of an active Visual Studio solution.
 
-![screenshot](https://github.com/Ericvf/BroPilot/blob/main/screenshot4.png)
+![screenshot](https://raw.githubusercontent.com/Ericvf/BroPilot/main/screenshot4.png)
 
 When BroPilot Try tries to apply the changes, it will output its decision and motivation.
 
@@ -97,7 +97,7 @@ Same Privacy, Same Performance – Just like in Visual Studio, all processing ha
 
 This makes BroPilot a valuable companion not only for software developers, but also for database administrators, analysts, and anyone working extensively with SQL Server.
 
-![screenshot](https://github.com/Ericvf/BroPilot/blob/main/screenshot5.png)
+![screenshot](https://raw.githubusercontent.com/Ericvf/BroPilot/main/screenshot5.png)
 
 --- 
 ## Getting Started
