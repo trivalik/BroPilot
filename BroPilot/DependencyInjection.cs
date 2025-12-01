@@ -11,7 +11,10 @@ namespace BroPilot
         {
             var services = new ServiceCollection();
             builder?.Invoke(services);
-            services.AddHttpClient();
+            services.AddHttpClient("llm", c =>
+            {
+                c.Timeout = TimeSpan.FromMinutes(30); // override default 100 seconds
+            });
             services
                 .AddSingleton<ToolWindow1Control>()
                 .AddSingleton<ChatWindow>()

@@ -172,7 +172,12 @@ namespace BroPilot.ViewModels
             }
             catch (Exception ex)
             {
-                reply.Content = "An error occurred: " + ex.Message;
+                if (ex is TaskCanceledException tex && tex.CancellationToken.IsCancellationRequested)
+                {
+                    reply.Content = "The request took too long.";
+                }
+                else
+                    reply.Content = "An error occurred: " + ex.Message;
                 return;
             }
 
